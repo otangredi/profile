@@ -1,0 +1,67 @@
+body {
+  background-color: #F0EBE3;
+  font-family: 'Playfair Display', serif;
+  color: #694E4E;
+  font-size: 18px;
+  line-height: normal;
+  padding: 28px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  color: #F25287;
+  line-height: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: #7858A6;
+}
+
+a:hover {
+  color: #4C3575;
+}
+
+.card {
+  background-color: #FFFFFF;
+  padding: 12px;
+  width: 700px;
+  margin: 25px auto;
+  border-radius: 12px;
+  border: 1px solid #EAEAEA;
+}
+
+li {
+  display: inline;
+  font-size: 24px;
+}
+
+ul {
+  padding: 0px;
+}
+
+#profile-pic {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
